@@ -3,8 +3,84 @@
 .card {
   position: relative;
   background: $color-white;
+  margin: 8px 12px;
+
+
 
   &__banner {
+    border: 1px solid #ABBBCC;
     background: $color-gray--dark;
+    //width: 240px;
+    min-height: 160px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    img {
+      //width: 100%;
+      //height: 100%;
+    }
   }
+
+  &__title {
+    padding: 16px 16px 0 16px;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    color: #0C1932;
+  }
+
+  &__runtime {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: rgba(12, 25, 50, 0.6);
+    padding: 8px 16px;
+  }
+
+  &_awards {
+    text-align: center;
+    span {
+      padding-left: 12px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 14px;
+      color: rgba(12, 25, 50, 0.8);
+    }
+  }
+
+  &_metrics {
+    padding: 0 16px 16px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    .metrics-title {
+      margin-top: 20px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 600;
+      font-size: 12px;
+      line-height: 16px;
+      color: rgba(12, 25, 50, 0.8);
+    }
+    .metrics-content {
+      margin-top: 4px;
+      font-family: 'Poppins';
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 14px;
+      color: rgba(12, 25, 50, 0.6);
+    }
+  }
+
+}
+
+.card-wrapper {
+
 }

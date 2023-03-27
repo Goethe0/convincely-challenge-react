@@ -10,5 +10,13 @@
 
   &__items {
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
   }
+
+  .movies-wrapper {
+    //background-color: #4c16c9;
+    //padding: 40px;
+
+  }
+
 }
